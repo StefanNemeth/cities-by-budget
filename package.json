@@ -1,0 +1,30 @@
+{
+  "name": "cities-by-budget",
+  "version": "0.0.1",
+  "description": "Finds cities around the world by comparing expenses to a given budget",
+  "scripts": {
+    "find": "babel-node ./citiesByBudget.js",
+    "fetch-expenses": "babel-node ./scripts/fetchExpenses.js"
+  },
+  "author": "Stefan Németh <mail.snemeth@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "dependencies": {
+    "country-data": "0.0.31",
+    "geonames": "^0.2.1",
+    "money": "^0.2.0",
+    "pull-stream": "^3.6.9",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5",
+    "underscore": "^1.9.1",
+    "whisk": "^1.4.0"
+  }
+}
