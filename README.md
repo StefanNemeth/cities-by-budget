@@ -13,7 +13,7 @@ After some filtering, the flight expenses are fetched from [Kiwi.com](https://ww
 
 ## How to use?
 
-```javascript
+```console
 git clone https://github.com/StefanNemeth/cities-by-budget.git
 cd cities-by-budget
 npm install
