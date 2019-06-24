@@ -14,7 +14,7 @@ After some filtering, the flight expenses are fetched from [Kiwi.com](https://ww
 ## How to use?
 
 ```javascript
-git fetch "https://github.com/StefanNemeth/cities-by-budget.git"
+git clone https://github.com/StefanNemeth/cities-by-budget.git
 cd cities-by-budget
 npm install
 npm run find
